@@ -1,0 +1,139 @@
+*{
+    user-select: none;
+}
+small{
+
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-top: 1%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.60vmax;
+    color: white;
+}
+
+
+header{
+
+    display: flex;
+    justify-content: center;
+    
+    position: relative;
+    top:0.5208333333333334vw;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+}
+
+
+.itens::-webkit-scrollbar {
+    width: 0vw;               /* width of the entire scrollbar */
+}
+
+.menu{
+
+    position: relative;
+    left:50vw;
+    top:18vw;
+    transform: translate(-50%,-18%);
+
+    width: 24.739583333333332vw;
+    height: 28.645833333333332vw;
+
+    background: #1E2228;
+    border-radius: 0.2604166666666667vw;
+}
+
+.itens{
+
+    margin-top: 5%;
+    overflow: auto;
+
+    width: 23.958333333333332vw;
+    max-height: 26.041666666666668vw;
+
+}
+
+.itemproduction{
+
+    width: 7.8125vw;
+    height: 3.125vw;
+
+}
+
+.ingredientes{
+
+    align-items: center;
+    width: 9.010416666666666vw;
+    height: 3.4895833333333335vw;
+
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 9px;
+
+    text-transform: uppercase;
+
+}
+
+.pictures{
+
+
+    position: relative;
+    top: 1.5625vw;
+    left: 1.5625vw;
+
+
+    width: 10vw;
+    height: 2.03125vw;
+
+}
+
+.craft{
+
+    margin-left: 3%;
+    margin-top: 4%;
+    width: 22.96875vw;
+    height: 8.28125vw;
+
+    background-color: rgba(255, 255, 255, 0.03);
+    border-radius: 0.46875vw;
+
+}
+
+.montar{
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    color:white;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: relative;
+    top:-0.20833333333333334vw;
+    left:13.541666666666666vw;
+    transform: translate(0.20%,-13%);
+
+    width: 6.614583333333333vw;
+    height: 1.8229166666666667vw;
+
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 1.9791666666666667vw;
+
+}
+
+.montar:hover{
+    transform: scale(1.1);
+}
+
+.topo{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top:0.5208333333333334vw;
+}
